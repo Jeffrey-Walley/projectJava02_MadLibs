@@ -1,7 +1,7 @@
 import java.util.*;
 
  public class Java_ex01_JavaTypes_Variables_Branching {  // uninitialized
-        // public static void main(String[] args) {
+      public static void main(String[] args) {
 
             // input Scanner -- 'Scanner' is a class of java.util and reads the input stream
             Scanner input = new Scanner(System.in); // 'System.in' allows input from primary input (keyboard)
@@ -21,7 +21,7 @@ import java.util.*;
 
     // MADLIB exercise -- pulls the firstName from previous exercise
 
-        // Scanner userInput = new Scanner(System.in); -- get error from uninitialized variable
+       Scanner userInput = new Scanner(System.in); // get error from uninitialized variable
         String name = firstName;
         System.out.println("Give me an adverb: ");
         String adverb = userInput.nextLine();
